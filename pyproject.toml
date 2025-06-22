@@ -1,6 +1,6 @@
 [project]
 name = "mac-chng"
-version = "0.1.0"
+version = "0.1.1"
 description = "This script changes the style of writing the mac address in accordance with the requirements of various vendors of network equipment"
 authors = [
     {name = "Andrey Koblov",email = "koblov-am@mail.ru"}
