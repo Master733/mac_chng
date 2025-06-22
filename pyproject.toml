@@ -2,6 +2,7 @@
 name = "mac-chng"
 version = "0.1.1"
 description = "This script changes the style of writing the mac address in accordance with the requirements of various vendors of network equipment"
+readme = "README.md"
 authors = [
     {name = "Andrey Koblov",email = "koblov-am@mail.ru"}
 ]
@@ -10,7 +11,6 @@ requires-python = ">=3.11"
 dependencies = [
     "requests (>=2.32.4,<3.0.0)"
 ]
-readme = "README.md"
 
 [tool.poetry]
 packages = [{include = "mac_chng", from = "src"}]
