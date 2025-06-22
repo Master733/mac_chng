@@ -5,7 +5,7 @@ description = "This script changes the style of writing the mac address in accor
 authors = [
     {name = "Andrey Koblov",email = "koblov-am@mail.ru"}
 ]
-readme = "README.md"
+# readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "requests (>=2.32.4,<3.0.0)"
