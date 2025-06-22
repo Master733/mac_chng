@@ -10,8 +10,11 @@ init-dev:
 	python -m pip install poetry
 	poetry install --with dev
 
+build: init
+	poetry build
+
 lint:
 	poetry run black --check .
 
 check: lint 
-	@echo "✅ Проверки пройдены"
+	@powershell -Command "Write-Output '✅ Проверки пройдены'"
