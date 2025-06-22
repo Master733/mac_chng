@@ -1,5 +1,9 @@
 .PHONY: lint init-dev
 
+init:
+	pip install poetry
+	poetry install --without dev
+	
 init-dev:
 	poetry install --with dev
 
