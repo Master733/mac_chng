@@ -1,7 +1,7 @@
 .PHONY: lint 
 
 lint:
-	poetry run black .
+	poetry run black --check .
 
 
 
