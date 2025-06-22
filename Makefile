@@ -1,10 +1,13 @@
-.PHONY: lint init-dev
+.PHONY: lint init-dev init lint check
 
 init:
-	pip install poetry
+	python -m pip install --upgrade pip
+	python -m pip install poetry
 	poetry install --without dev
-	
+
 init-dev:
+	python -m pip install --upgrade pip
+	python -m pip install poetry
 	poetry install --with dev
 
 lint:
